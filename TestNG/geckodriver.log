@@ -1,0 +1,6 @@
+1592488971434	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuFrFfq"
+1592488977919	Marionette	INFO	Listening on port 41615
+1592488978004	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js, line 18: ReferenceError: jQuery is not defined
+JavaScript error: https://cdn.datatables.net/fixedcolumns/3.3.0/js/dataTables.fixedColumns.min.js, line 18: ReferenceError: jQuery is not defined
+1592489072772	Marionette	INFO	Stopped listening on port 41615
