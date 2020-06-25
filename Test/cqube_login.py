@@ -8,7 +8,7 @@ from get_dir import pwd
 class CqubeLogin(unittest.TestCase):
     def setUp(self):
         p = pwd()
-        self.driver = p.get_firefox_headless_driver()
+        self.driver = p.get_chrome_headless_driver()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.driver.get(Data.URL)
