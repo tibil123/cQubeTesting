@@ -17,7 +17,7 @@ class pwd():
 
     def get_driver_path(self):
         cwd = os.path.dirname(__file__)
-        return os.path.join(cwd,'Driver/geckodriver')
+        return os.path.join(cwd,'Driver/chromedriver')
 
     def get_firefox_driver(self):
         p = pwd()
