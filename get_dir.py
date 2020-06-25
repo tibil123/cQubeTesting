@@ -24,9 +24,9 @@ class pwd():
         driver = webdriver.Firefox(executable_path=p.get_driver_path())
         return driver
 
-    def get_firefox_headless_driver(self):
-        options = Options()
-        options.headless = True
-        p = pwd()
-        driver = webdriver.Firefox(options=options, executable_path=p.get_driver_path())
+    def get_chrome_headless_driver(self):
+        options = webdriver.ChromeOptions()
+        options.add_argument('--headless')
+        p=pwd()
+        driver=webdriver.Chrome(chrome_options=options,executable_path=p.get_driver_path())
         return driver
